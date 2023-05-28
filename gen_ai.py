@@ -2,7 +2,7 @@ import streamlit as st
 import cohere
 
 # Create a Cohere client with your API key
-co = cohere.Client('gh7zeWIg1ZDBOGjYP09jnBDpUoHpo7Q4GEZwQ2zq')
+co = cohere.Client('')
 
 # Define a Streamlit app
 def app():
