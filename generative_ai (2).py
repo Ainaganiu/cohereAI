@@ -12,7 +12,7 @@ Original file is located at
 !pip install cohere -q
 
 import cohere
-co = cohere.Client('gh7zeWIg1ZDBOGjYP09jnBDpUoHpo7Q4GEZwQ2zq')
+co = cohere.Client('')
 def write_topic(topic):
   topic = str(topic)
   response = co.generate(
